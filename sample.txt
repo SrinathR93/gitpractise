@@ -1,2 +1,3 @@
-Hello Sri
-its good
+import pandas as pd
+dataset3=pd.read_json("nepse-listed-companies-2021.json")
+print(dataset3.head(5))
